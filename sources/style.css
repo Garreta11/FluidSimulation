@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'Panchang';
+    src: url('/fonts/Panchang/Panchang-Bold.otf') format('opentype');
+    /* Add other font formats (e.g., woff, woff2) if available */
+}
+
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Panchang';
 }
 
 html,
@@ -11,9 +18,25 @@ body
     overflow: hidden;
 }
 
-.experience
+.webgl
 {
     position: fixed;
     width: 100vw;
     height: 100vh;
+}
+
+.link {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    mix-blend-mode: difference;
+}
+
+.link span {
+    border-bottom: 2px solid white;
 }
