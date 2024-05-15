@@ -3,7 +3,7 @@ import * as dat from 'dat.gui';
 export default class Controls {
   constructor(params) {
     this.params = params;
-    this.init();
+    // this.init();
   }
 
   init() {
